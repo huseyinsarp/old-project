@@ -1,7 +1,5 @@
 package AllMyWork.Kurscalısmalar.j99_Lambda.lambdaSearch;
 
-import AllMyWork.Kurscalısmalar.j99_Lambda.C01_LambdaExpression;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -28,7 +26,7 @@ public class C05_Sorted {
                     stream().//list elemanları akısa alındi
                     filter(C01_LambdaExpression::ciftMi).//akısdaki elelmalar cift sartıne göre filtrelendi
                     map(t->t*t).//filtrelenen cift elemanlar karesine update edildi
-                    sorted().//akısdaki karesine update edilen eleman sıralandı(NO)
+                    sorted().//akısdaki karesine update edilen eleman sıralandı(NO -->> National Order doğal sıra)
                     forEach(C01_LambdaExpression::yazdir);//print
             //sorted() => Doğal düzene göre sıralanmış, bu akışın elemanlarında oluşan bir akış döndürür.
             //sorted() methodu tekrarlı kullanılırsa en son kullanılan aktif olur.

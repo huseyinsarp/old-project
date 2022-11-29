@@ -1,7 +1,5 @@
 package AllMyWork.Kurscalısmalar.j99_Lambda.lambdaSearch;
 
-import AllMyWork.Kurscalısmalar.j99_Lambda.C01_LambdaExpression;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -71,3 +69,4 @@ public class C06_distinct {
     }
     // Task : listin elemanlarin karakterlerinin cift sayili  karelerini hesaplayan,ve karelerini tekrarsiz buyukten kucuge sirali  print ediniz...
 }
+
